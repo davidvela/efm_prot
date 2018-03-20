@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+        <title>EFM</title> <!-- Enterprise Food Manager-->
+			     
+		<script>
+		/*import java.io.*;  
+		import javax.servlet.*;  
+		import javax.servlet.http.*;  
+		public class CORSFilter implements Filter {  
+          public CORSFilter() {  
+          }  
+          public void init(FilterConfig fConfig) throws ServletException {  
+          }  
+          public void destroy() {  
+          }  
+          public void doFilter(ServletRequest request, ServletResponse response,  
+                              FilterChain chain) throws IOException, ServletException {  
+                    ((HttpServletResponse) response).addHeader(  
+                                        "Access-Control-Allow-Origin", "*");  
+                    chain.doFilter(request, response);  
+          }  
+		}  
+		var filter = new CORSFilter();
+		var rq = 'https://crossorigin.me/https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js';
+		var rs ;
+		var chain;
+		filter.doFilter(rq,rs,chain);*/
+		
+		/*
+		// service url  
+		var url = 'https://crossorigin.me/https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js';
+		var src;
+		//var url = 'http://ip.jsontest.com/?callback=processJSON';  
+		$.ajax({  
+		    url: url,  
+		    jsonpCallback: 'processJSON',  
+		    dataType: 'jsonp',  
+		    success: function (result) {  
+		        // process result  
+		        //$('#result').html(result.ip);  
+		        src = result;
+		    },  
+		    error: function (e) {  
+		         // log error in browser  
+		        console.log(e.message);  
+		    }  
+		}); 
+		*/
+		</script>
+		
+		<script id="sap-ui-bootstrap"
+        data-sap-ui-libs="sap.m, sap.ui.table, sap.makit, sap.viz"
+        data-sap-ui-theme="sap_belize_plus"
+        data-sap-ui-xx-bindingSyntax="complex"
+        data-sap-ui-resourceroots='{
+            "pdm_demo": "./"
+        }'
+       	src='https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js'>
+        
+		// sap_bluecrystal
+		// src= 'https://crossorigin.me/https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js'>
+		// src="../../openui5-sdk-1.32.11/resources/sap-ui-core.js"> 
+		// src='https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js'>
+		// src="resources/sap-ui-core.js"> //
+		// https://crossorigin.me/https://sapui5.netweaver... not working ! still
+        // sap.viz 
+		</script>
+		
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script>	
+            sap.ui.getCore().attachInit(function() {
+                new sap.m.Shell({
+                    app: new sap.ui.core.ComponentContainer({
+                        height : "100%",
+                        name : "pdm_demo"
+                    })
+                }).placeAt("content");
+            });		
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+		 <!--<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/notificationCustomPlugin.js"></script>
+        <script type="text/javascript" src="js/index.js"></script> -->
+	</body>
+</html>

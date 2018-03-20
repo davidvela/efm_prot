@@ -1,0 +1,86 @@
+{
+    "material": "123456",
+    "localName": "Apple Pie",
+    "cost": "10",
+    "prodMethod": "Baking",
+    "costingPlant": "UK",
+    "date": "24.08.2015",
+    "status": "released",
+    "validFrom": "18.11.2013",
+    "division": "Desserts",
+    "materialScope": [
+        {
+            "area": "Sweet Desserts",
+            "rawMaterial": "",
+            "formula": false,
+            "solution": 1,
+            "unclassified": ""
+        },
+        {
+            "area": "Ice Cream",
+            "rawMaterial": "",
+            "formula": false,
+            "solution": 2,
+            "unclassified": ""
+        },
+        {
+            "area": "Meals",
+            "rawMaterial": "",
+            "formula": false,
+            "solution": 3,
+            "unclassified": ""
+        },
+        {
+            "area": "Breakfast",
+            "rawMaterial": "1012",
+            "formula": true,
+            "solution": 4,
+            "unclassified": "B"
+        }
+    ],
+    "Formula": [
+        {
+            "material": "900001",
+            "matDesc": "Apples",
+            "item": "0049",
+            "sumNow": "300,000 ",
+            "sumPast": "300,000"
+        },
+        {
+            "material": "900002",
+            "matDesc": "Pies",
+            "item": "0001",
+            "sumNow": " ",
+            "sumPast": "20"
+        },
+        {
+            "material": "900003",
+            "matDesc": "Oil 119",
+            "item": "0002",
+            "sumNow": " ",
+            "sumPast": "20"
+        },
+        {
+            "material": "900004",
+            "matDesc": "Milk",
+            "item": "0023",
+            "sumNow": " ",
+            "sumPast": "20"
+        }
+    ],
+    "sdspath": "123456-apple-pie.pdf",
+    "danger" : [  {"pic": "./LocalFiles/GRAPHICS/milk.bmp" },
+    		  	  {"pic": "./LocalFiles/GRAPHICS/penauts.bmp" },
+    		  	  {"pic": "./LocalFiles/GRAPHICS/W_tox.bmp" }
+    ],
+    "d_wpc"		: "WGK 2 water endangering",
+	"d_flash"	: ">100 °C / 2012 °F", 
+	"d_br"		: "",
+   	"d_ws"		: "immiscible",
+	"d_wm"		: "",
+	"d_bn"		: "0",
+    "dangerTab" : [ {"header": "R52/53", "phrase" : "Toxic to milk intolerance people." },
+ 					{"header": "R43", 	 "phrase" : "May contain penautscause sensitisation by skin contact. " }  
+ 				
+ 				  ]
+}

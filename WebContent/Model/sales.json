@@ -1,0 +1,43 @@
+{
+	"businessData": [{
+		"year": "2000",
+		"Country": "Canada",
+		"profit": -141.25
+	}, {
+		"year": "2001",
+		"Country": "China",
+		"profit": 133.82
+	}, {
+		"year": "2002",
+		"Country": "France",
+		"profit": 348.76
+	}, {
+		"year": "2003 ",
+		"Country": "Germany",
+		"profit": 217.29
+	}, {
+		"year": "2004",
+		"Country": "India",
+		"profit": 117.00
+	}, {
+		"year": "2005",
+		"Country": "United States",
+		"profit": 609.16
+	}],
+	"columns": [{
+		"width": "30%",
+		"header": "year",
+		"demandPopin": false,
+		"minScreenWidth": ""
+	}, {
+		"width": "20%",
+		"header": "Country",
+		"demandPopin": false,
+		"minScreenWidth": ""
+	}, {
+		"width": "50%",
+		"header": "profit",
+		"demandPopin": true,
+		"minScreenWidth": "Tablet"
+	}]
+}

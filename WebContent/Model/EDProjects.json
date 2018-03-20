@@ -1,0 +1,53 @@
+{
+    "elements": [
+        {   "projectId": "01",
+            "projectName": "Project: Strawberry Cake",
+            "creator": "David",
+            "creationDate": "22.03.2016",
+            "statusTxt": "Active",
+            "status": "Success",
+            "Formula": [
+            	{ 	"info"		: "X",
+	            	"line" 		: "1",
+	            	"material" 	: "900001",
+	            	"matDesc"  	: "Milk",
+	            	"item" 	   	: "0061",
+	            	"sumNow"    : "10"
+            	},
+            	{ 	"info"		: "X",
+	            	"line" 		: "2",
+	            	"material" 	: "900002",
+	            	"matDesc"  	: "Straberries",
+	            	"item" 	   	: "0020",
+	            	"sumNow"    : "20"
+            	}
+            ],
+            "Header": [{
+            	"matNumber"		: "201207",
+            	"matName" 		: "Strawberry Cake",
+            	"totalGrams" 	: "1000",
+            	"totalBal" 		: "2,78",
+            	"totalCalc" 	: " ",
+            	"YieldGrams" 	: "1000"
+            }]           
+        },
+        {
+            "projectId": "02",
+            "projectName": "Project: Apple Pie with Whisky-Soaked Cherries ",
+            "creator": "David",
+            "creationDate": "22.03.2016",
+            "statusTxt": "inProcess",
+            "status": "Warning",
+            "Formula": [ ]
+        },
+        {
+            "projectId": "03",
+            "projectName": "Project: Watermelon Dessert",
+            "creator": "David",
+            "creationDate": "22.03.2016",
+            "statusTxt": "Cancel",
+            "status": "Error",
+            "Formula": [ ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "elements": [
+        {            
+        	"id": 100,
+            "name": "MSDS_Ch1",
+            "staticF": false
+        },
+        {            
+        	"id": 101,
+            "name": "MSDS_Ch2",
+            "staticF": false
+        },
+        {            
+        	"id": 1,
+            "name": "Header",
+            "staticF": true
+        },
+        {            
+        	"id": 2,
+            "name": "Applications",
+            "staticF": true
+        },
+        {            
+        	"id": 3,
+            "name": "FDS",
+            "staticF": true
+        },
+        {            
+        	"id": 4,
+            "name": "Recipe",
+            "staticF": true
+        },
+        {            
+        	"id": 5,   
+            "name": "Safety",
+            "staticF": true
+        },
+        {            
+        	"id": 6,
+            "name": "Sales",
+            "staticF": true
+        }
+    ]
+}

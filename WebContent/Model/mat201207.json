@@ -1,0 +1,77 @@
+{
+    "material": "201207",
+    "localName": "Strawberry Cake",
+    "cost": "20",
+    "prodMethod": "Baking",
+    "costingPlant": "ES",
+    "date": "24.08.2015",
+    "status": "released",
+    "validFrom": "21.12.2001",
+    "division": "Desserts",
+    "materialScope": [
+        {
+            "area": "Sweet Desserts",
+            "rawMaterial": "",
+            "formula": false,
+            "solution": 1,
+            "unclassified": ""
+        },
+        {
+            "area": "Ice Creams",
+            "rawMaterial": "",
+            "formula": true,
+            "solution": 2,
+            "unclassified": ""
+        },
+        {
+            "area": "Meals",
+            "rawMaterial": "",
+            "formula": false,
+            "solution": 3,
+            "unclassified": ""
+        },
+        {
+            "area": "Breakfast",
+            "rawMaterial": "1012",
+            "formula": false,
+            "solution": 4,
+            "unclassified": "B"
+        }
+    ],
+    "Formula": [
+        {
+            "material": "900009",
+            "matDesc": "Cookies",
+            "item": "0061",
+            "sumNow": " ",
+            "sumPast": "20,000"
+        },
+        {
+            "material": "900005",
+            "matDesc": "Milk",
+            "item": "0020",
+            "sumNow": "20,000",
+            "sumPast": "20,000"
+        },
+        {
+            "material": "900011",
+            "matDesc": "STRAWBERRY FLAVOR CONC.",
+            "item": "0061",
+            "sumNow": "60,000",
+            "sumPast": "80,000"
+        }
+    ],
+    "sdspath": "201207-Strawberry.pdf",
+    "danger" : [  {"pic": "./LocalFiles/GRAPHICS/W_tox.bmp" },
+    		  	  {"pic": "./LocalFiles/GRAPHICS/GHS_exclam.bmp" }
+    			],
+    "d_wpc"		: "WGK 1 slightly water endangering",
+	"d_flash"	: "75 °C / 167 °F", 
+	"d_br"		: "",
+   	"d_ws"		: "completely miscible",
+	"d_wm"		: "",
+	"d_bn"		: "0",
+    "dangerTab" : [ {"header": "H317", "phrase" : "May cause an allergic skin reaction" },
+ 					{"header": "H318", "phrase" : "Causes serious eye damage." }  
+ 				]
+}
